@@ -38,3 +38,21 @@ create your own customized versions.
 ## Live Tool
 
 This tool is live at [http://textualization.com/riscovid](http://textualization.com/riscovid).
+
+## Local Install
+
+This project uses (composer)[https://getcomposer.org] to manage its
+dependencies. Before running it, install composer and then issue:
+
+```bash
+composer install
+```
+
+To host a site, The `public` folder show be available through the Web
+server. Alternative, you can generate a page using the
+`scripts/make_page.php` program:
+
+```bash
+php scripts/make_page.php resources/form.es.yaml es
+```
+
