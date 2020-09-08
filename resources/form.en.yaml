@@ -1,0 +1,115 @@
+- title: COVID Disclosure Formulaire
+- text:
+    - Everything in this questionnaire is optional, choose to disclose anything you think it will make the people you are meeting more comfortable.
+    - No information is sent out, this is an off-line form. Once you are finished, you can get a summary of your answers to send out (that requires to run some local JavaScript) or you can print to PDF the completed questionnaire.
+- summary: Summary
+- summarize: Summarize
+- hoax:
+    caption: 'Do you think the SARS-CoV-2 ("coronavirus" or "COVID") is a hoax (i.e., there is no virus)?'
+    options:
+      - text: Yes.
+        gloss: I believe there is no virus.
+      - text: No.
+        gloss: ""
+    postscript: (If yes, no need to fill up the rest! Thanks for the heads up.)
+- care:
+    caption: How much do you care about not catching the SARS-CoV-2 virus?
+    options:
+      - text: Very much.
+        gloss: I care a lot about SARS-CoV-2.
+      - text: I care.
+        gloss: I care about SARS-CoV-2.
+      - text: Somewhat.
+        gloss: SARS-CoV-2 is important to me.
+      - text: Not much.
+        gloss: SARS-CoV-2 is not important to me.
+      - text: I don't care.
+        gloss: I don't care about SARS-CoV-2.
+- carefor:
+    caption: Is there people in your household you care not to get infected?
+    options:
+      - text: Yes.
+        gloss: There is a person in my household I care for them not to get infected.
+      - text: No.
+        gloss: ""
+    extra:
+      text: If yes, who? (You can disclose this for people to share your concern for your loved one and better understand your need for them to wear face masks, etc). I worry about my
+      gloss: I care not to get infected to keep the health of my
+- size:
+    caption: How many people are in your household (including yourself)?
+    options:
+      - text: More than 5.
+        gloss: At home, we are more than five people. 
+      - text: 3-5
+        gloss: At home, we are between three to five people. 
+      - text: 2.
+        gloss: We are two people at home. 
+      - text: 1.
+        gloss: At home, it is only me. 
+- bubble:
+    caption: How many people would you estimate are in the "social bubble" of your household (people seen by somebody in your household, including yourself, at least once a month)?
+    options:
+      - text: More than 50.
+        gloss: Our social bubble is humongous. 
+      - text: 12-50.
+        gloss: Our social bubble is big. 
+      - text: 6-12.
+        gloss: Our social bubble is decent. 
+      - text: 1-5.
+        gloss: We keep to ourselves. 
+      - text: Just us.
+        gloss: We see nobody else. 
+- outside:
+    caption: Is there anybody in your household (including yourself) that works outside your home?
+    options:
+      - text: Yes.
+        gloss: We have people that work outside the home. 
+      - text: No.
+        gloss: Nobody works outside the home. 
+- classes:
+    caption: Is there any person in your household (including yourself) that attend in-person classes (or children in daycare)?
+    options:
+      - text: Yes.
+        gloss: We have people at school or daycare. 
+      - text: No.
+        gloss: Nobody is at school or daycare. 
+- iwear:
+    caption: If you meet people socially, do you wear a face mask?
+    options:
+      - text: Always.
+        gloss: If I meet people, I always wear a face mask. 
+      - text: Depends who I meet.
+        gloss: Depending who I meet, I wear a face mask. 
+      - text: Depends on the place we meet.
+        gloss: Depending where we are meeting, I wear a face mask. 
+      - text: Never.
+        gloss: I never wear a face mask when I socialize. 
+- uwear:
+    caption: If you meet people socially, do you expect others to wear a face mask?
+    options:
+      - text: Always.
+        gloss: If I meet people, I always expect them to wear a face mask. 
+      - text: Depends who I meet.
+        gloss: Depending who I meet, I expect them to wear a face mask. 
+      - text: Depends on the place we meet.
+        gloss: Depending where we are meeting, I expect them to wear a face mask. 
+      - text: Never.
+        gloss: I never expect others to wear a face mask when I socialize. 
+- transit:
+    caption: How often any person in your household (including yourself) takes mass transit (choose the answer for the most frequent traveler)?
+    options:
+      - text: Daily.
+        gloss: There is somebody at home that takes mass transit daily. 
+      - text: Once a week.
+        gloss: There is somebody at home that takes mass transit once a week. 
+      - text: Once a month.
+        gloss: There is somebody at home that takes mass transit once a month. 
+      - text: Haven't used it since pandemic started.
+        gloss: We haven't used mass transit since the start of the pandemic. 
+- flight:
+    caption: Does anybody in your household (including yourself) have been in an airplane in the last two weeks?
+    options:
+      - text: Yes.
+        gloss: Somebody has been on an airplane in the last two weeks. 
+      - text: No.
+        gloss: Nobody has been on an airplane recently. 

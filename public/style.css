@@ -1,0 +1,33 @@
+body {
+  background: #ddd;
+  font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+  font-size: 1.5em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+h1 {
+  background: #eee;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 2.5em;
+  color: red;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+input {
+  font-size: 2em;
+  vertical-align: middle;
+  padding: 2px;
+}
+address {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+address a {
+  text-decoration: none;
+  color: black;
+}

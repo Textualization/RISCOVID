@@ -1,0 +1,57 @@
+{
+    "care":
+    { "0": { "care": "yes", "degree": "high" },
+      "1": { "care": "yes", "degree": "normal" },
+      "2": { "care": "yes", "degree": "low" },
+      "3": { "care": "no",  "degree": "verylow" },
+      "4": { "care": "no",  "degree": "none" }
+    },
+    "carefor":
+    { "0": { "carefor": "yes" },
+      "1": { "carefor": "no"  }
+    },
+    "size":
+    { "0": { "size": "big",    "degree": "large"  },
+      "1": { "size": "normal", "degree": "large"  },
+      "2": { "size": "two",    "degree": "small"  },
+      "3": { "size": "one",    "degree": "small"  }
+    },
+    "bubble":
+    { "0": { "bubble": "huge",   "degree": "large", "risk": "yes" },
+      "1": { "bubble": "big",    "degree": "large", "risk": "yes" },
+      "2": { "bubble": "normal", "degree": "small", "risk": "no"  },
+      "3": { "bubble": "small",  "degree": "small", "risk": "no"  },
+      "4": { "bubble": "none",   "degree": "small", "risk": "no"  }
+    },
+    "outside":
+    { "0": { "outside": "yes",  "risk": "yes" },
+      "1": { "outside": "no",   "risk": "no"  }
+    },
+    "classes":
+    { "0": { "classes": "yes",  "risk": "yes" },
+      "1": { "classes": "no",   "risk": "no"  }
+    },
+    "iwear":
+    { "0": { "type": "wear", "wear": "always",   "who": "self",                      "risk": "no"  },
+      "1": { "type": "wear", "wear": "depends",  "who": "self", "depends": "people", "risk": "no"  },
+      "2": { "type": "wear", "wear": "depends",  "who": "self", "depends": "place",  "risk": "no"  },
+      "3": { "type": "wear", "wear": "never",    "who": "self",                      "risk": "yes" }
+    },
+    "uwear":
+    { "0": { "type": "wear", "wear": "always",   "who": "others",                      "risk": "no"  },
+      "1": { "type": "wear", "wear": "depends",  "who": "others", "depends": "people", "risk": "no"  },
+      "2": { "type": "wear", "wear": "depends",  "who": "others", "depends": "place",  "risk": "no"  },
+      "3": { "type": "wear", "wear": "never",    "who": "others",                      "risk": "yes" }
+    },
+    "transit":
+    { "0": { "transit": "daily",  "risk": "yes"  },
+      "1": { "transit": "weekly", "risk": "no"  },
+      "2": { "transit": "montly", "risk": "no"  },
+      "3": { "transit": "never",  "risk": "no"  }
+    },
+    
+    "flight":
+    { "0": { "flight": "yes",  "risk": "yes" },
+      "1": { "flight": "no",   "risk": "no"  }
+    }
+}

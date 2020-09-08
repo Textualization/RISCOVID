@@ -1,0 +1,366 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>COVID Disclosure Formulaire</title>
+<style>
+body {
+  background: #eee;
+  font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+  font-size: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+input[type="radio" i]{
+  font-size: 2em;
+  width: 0.5em;
+  height: 0.5em;
+  vertical-align: middle;
+}
+input {
+  font-size: 2em;
+  vertical-align: middle;
+}
+label { 
+  padding-left: 0.25em; 
+}
+
+</style>
+  </head>
+  <body>
+    <h1>COVID Disclosure Formulaire</h1>
+<p>Everything in this questionnaire is optional, choose to disclose anything you think it will make the people you are meeting more comfortable.</p>
+<p>No information is sent out, this is an off-line form. Once you are finished, you can get a summary of your answers to send out (that requires to run some local JavaScript) or you can print to PDF the completed questionnaire.</p>
+    <form>
+
+      <ol>
+	<li><p>Do you think the SARS-CoV-2 ("coronavirus" or "COVID") is a hoax (i.e., there is no virus)?<br/>
+<input type="radio" id="hoax_1" name="hoax" /><label for="hoax_1">Yes.</label><br/>
+<input type="radio" id="hoax_2" name="hoax" /><label for="hoax_2">No.</label><br/>
+</p><p>(If yes, no need to fill up the rest! Thanks for the heads up.)</p>
+	</p></li>
+
+	<li><p>How much do you care about not catching the SARS-CoV-2 virus?<br/>
+<input type="radio" id="care_1" name="care" /><label for="care_1">Very much.</label><br/>
+<input type="radio" id="care_2" name="care" /><label for="care_2">I care.</label><br/>
+<input type="radio" id="care_3" name="care" /><label for="care_3">Somewhat.</label><br/>
+<input type="radio" id="care_4" name="care" /><label for="care_4">Not much.</label><br/>
+<input type="radio" id="care_5" name="care" /><label for="care_5">I don't care.</label><br/>
+	</p></li>
+
+	<li><p>Is there people in your household you care not to get infected?<br/>
+<input type="radio" id="carefor_1" name="carefor" /><label for="carefor_1">Yes.</label><br/>
+<input type="radio" id="carefor_2" name="carefor" /><label for="carefor_2">No.</label><br/>
+</p><p>If yes, who? (You can disclose this for people to share your concern for your loved one and better understand your need for them to wear face masks, etc). I worry about my: <input type="text" id="carefor_extra" name="carefor_extra" /></p>
+	</p></li>
+
+	<li><p>How many people are in your household (including yourself)?<br/>
+<input type="radio" id="size_1" name="size" /><label for="size_1">More than 5.</label><br/>
+<input type="radio" id="size_2" name="size" /><label for="size_2">3-5</label><br/>
+<input type="radio" id="size_3" name="size" /><label for="size_3">2</label><br/>
+<input type="radio" id="size_4" name="size" /><label for="size_4">1</label><br/>
+	</p></li>
+
+	<li><p>How many people would you estimate are in the "social bubble" of your household (people seen by somebody in your household, including yourself, at least once a month)?<br/>
+<input type="radio" id="bubble_1" name="bubble" /><label for="bubble_1">More than 50.</label><br/>
+<input type="radio" id="bubble_2" name="bubble" /><label for="bubble_2">12-50.</label><br/>
+<input type="radio" id="bubble_3" name="bubble" /><label for="bubble_3">6-12.</label><br/>
+<input type="radio" id="bubble_4" name="bubble" /><label for="bubble_4">1-5.</label><br/>
+<input type="radio" id="bubble_5" name="bubble" /><label for="bubble_5">Just us.</label><br/>
+	</p></li>
+
+	<li><p>Is there anybody in your household (including yourself) that works outside your home?<br/>
+<input type="radio" id="outside_1" name="outside" /><label for="outside_1">Yes.</label><br/>
+<input type="radio" id="outside_2" name="outside" /><label for="outside_2">No.</label><br/>
+	</p></li>
+
+	<li><p>Is there any person in your household (including yourself) that attend in-person classes (or children in daycare)?<br/>
+<input type="radio" id="classes_1" name="classes" /><label for="classes_1">Yes.</label><br/>
+<input type="radio" id="classes_2" name="classes" /><label for="classes_2">No.</label><br/>
+	</p></li>
+
+	<li><p>If you meet people socially, do you wear a face mask?<br/>
+<input type="radio" id="iwear_1" name="iwear" /><label for="iwear_1">Always.</label><br/>
+<input type="radio" id="iwear_2" name="iwear" /><label for="iwear_2">Depends who I meet.</label><br/>
+<input type="radio" id="iwear_3" name="iwear" /><label for="iwear_3">Depends on the place we meet.</label><br/>
+<input type="radio" id="iwear_4" name="iwear" /><label for="iwear_4">Never.</label><br/>
+	</p></li>
+
+	<li><p>If you meet people socially, do you expect others to wear a face mask?<br/>
+<input type="radio" id="uwear_1" name="uwear" /><label for="uwear_1">Always.</label><br/>
+<input type="radio" id="uwear_2" name="uwear" /><label for="uwear_2">Depends who I meet.</label><br/>
+<input type="radio" id="uwear_3" name="uwear" /><label for="uwear_3">Depends on the place we meet.</label><br/>
+<input type="radio" id="uwear_4" name="uwear" /><label for="uwear_4">Never.</label><br/>
+	</p></li>
+
+	<li><p>How often any person in your household (including yourself) takes mass transit (choose the answer for the most frequent traveler)?<br/>
+<input type="radio" id="transit_1" name="transit" /><label for="transit_1">Daily.</label><br/>
+<input type="radio" id="transit_2" name="transit" /><label for="transit_2">Once a week.</label><br/>
+<input type="radio" id="transit_3" name="transit" /><label for="transit_3">Once a month.</label><br/>
+<input type="radio" id="transit_4" name="transit" /><label for="transit_4">Haven't used it since pandemic started.</label><br/>
+	</p></li>
+
+	<li><p>Does anybody in your household (including yourself) have been in an airplane in the last two weeks?<br/>
+<input type="radio" id="flight_1" name="flight" /><label for="flight_1">Yes.</label><br/>
+<input type="radio" id="flight_2" name="flight" /><label for="flight_2">No.</label><br/>
+	</p></li>
+
+      </ol>      
+      <p>
+	<input type="button" id="action" name="action" onclick="summarize()" value="Summarize" />
+      </p>
+      <p>Summary</p>
+
+      <textarea id="summary" name="summary" rows="20" cols="60">
+      </textarea>
+    </form>
+    <script>
+      function summarize(){
+      var f=document.forms[0];
+      var summary="";
+      if(f.hoax_1.checked){ summary="I believe there is no virus." }
+      else
+      {
+      var hoax_1 = f.hoax_1.checked;
+      var hoax_2 = f.hoax_2.checked;
+      var care_1 = f.care_1.checked;
+      var care_2 = f.care_2.checked;
+      var care_3 = f.care_3.checked;
+      var care_4 = f.care_4.checked;
+      var care_5 = f.care_5.checked;
+      var carefor_1 = f.carefor_1.checked;
+      var carefor_2 = f.carefor_2.checked;
+      var carefor_extra = f.carefor_extra.value;
+      var size_1 = f.size_1.checked;
+      var size_2 = f.size_2.checked;
+      var size_3 = f.size_3.checked;
+      var size_4 = f.size_4.checked;
+      var bubble_1 = f.bubble_1.checked;
+      var bubble_2 = f.bubble_2.checked;
+      var bubble_3 = f.bubble_3.checked;
+      var bubble_4 = f.bubble_4.checked;
+      var bubble_5 = f.bubble_5.checked;
+      var outside_1 = f.outside_1.checked;
+      var outside_2 = f.outside_2.checked;
+      var classes_1 = f.classes_1.checked;
+      var classes_2 = f.classes_2.checked;
+      var iwear_1 = f.iwear_1.checked;
+      var iwear_2 = f.iwear_2.checked;
+      var iwear_3 = f.iwear_3.checked;
+      var iwear_4 = f.iwear_4.checked;
+      var uwear_1 = f.uwear_1.checked;
+      var uwear_2 = f.uwear_2.checked;
+      var uwear_3 = f.uwear_3.checked;
+      var uwear_4 = f.uwear_4.checked;
+      var transit_1 = f.transit_1.checked;
+      var transit_2 = f.transit_2.checked;
+      var transit_3 = f.transit_3.checked;
+      var transit_4 = f.transit_4.checked;
+      var flight_1 = f.flight_1.checked;
+      var flight_2 = f.flight_2.checked;
+      if(hoax_1) summary += "I believe there is no virus. ";
+      if((care_1 || care_2 || care_3 || care_4 || care_5) && (carefor_1 || carefor_2)){
+        var table = [
+          [
+            "I care a lot about SARS-CoV-2 as there is a person in my household I care for them not to get infected. ",
+            "I care a lot about SARS-CoV-2. ",
+            "I care a lot about SARS-CoV-2 as I care not to get infected to keep the health of my carefor_EXTRA. ",
+            "I care a lot about SARS-CoV-2. "
+          ],
+          [
+            "I care about SARS-CoV-2 as there is a person in my household I care for them not to get infected. ",
+            "I care about SARS-CoV-2. ",
+            "I care about SARS-CoV-2 as I care not to get infected to keep the health of my carefor_EXTRA. ",
+            "I care about SARS-CoV-2. "
+          ],
+          [
+            "SARS-CoV-2 is important to me as there is a person in my household I care for them not to get infected. ",
+            "SARS-CoV-2 is important to me. ",
+            "SARS-CoV-2 is important to me as I care not to get infected to keep the health of my carefor_EXTRA. ",
+            "SARS-CoV-2 is important to me. "
+          ],
+          [
+            "SARS-CoV-2 is not important to me but there is a person in my household I care for them not to get infected. ",
+            "SARS-CoV-2 is not important to me. ",
+            "SARS-CoV-2 is not important to me but I care not to get infected to keep the health of my carefor_EXTRA. ",
+            "SARS-CoV-2 is not important to me. "
+          ],
+          [
+            "I don't care about SARS-CoV-2 but there is a person in my household I care for them not to get infected. ",
+            "I don't care about SARS-CoV-2. ",
+            "I don't care about SARS-CoV-2 but I care not to get infected to keep the health of my carefor_EXTRA. ",
+            "I don't care about SARS-CoV-2. "
+          ]
+        ];
+        var idx1 = 0 + care_1 * 0 + care_2 * 1 + care_3 * 2 + care_4 * 3 + care_5 * 4
+        var idx2 = 0 + carefor_1 * 0 + carefor_2 * 1
+        if(carefor_extra != ""){ idx2 += 2};
+        var text = table[idx1][idx2];
+        if(carefor_extra != ""){ text = text.replace("carefor_EXTRA", carefor_extra) }
+        summary += text;
+      }else{
+      if(care_1) summary += "I care a lot about SARS-CoV-2. ";
+      if(care_2) summary += "I care about SARS-CoV-2. ";
+      if(care_3) summary += "SARS-CoV-2 is important to me. ";
+      if(care_4) summary += "SARS-CoV-2 is not important to me. ";
+      if(care_5) summary += "I don't care about SARS-CoV-2. ";
+      if(carefor_1) summary += "There is a person in my household I care for them not to get infected. ";
+      if(carefor_extra != "") summary += "I care not to get infected to keep the health of my: " + carefor_extra + ". ";
+      }
+      if((size_1 || size_2 || size_3 || size_4) && (bubble_1 || bubble_2 || bubble_3 || bubble_4 || bubble_5)){
+        var table = [
+          [
+            "At home, we are more than five people and our social bubble is humongous. ",
+            "At home, we are more than five people and our social bubble is big. ",
+            "At home, we are more than five people but our social bubble is decent. ",
+            "At home, we are more than five people but we keep to ourselves. ",
+            "At home, we are more than five people but we see nobody else. "
+          ],
+          [
+            "At home, we are between three to five people and our social bubble is humongous. ",
+            "At home, we are between three to five people and our social bubble is big. ",
+            "At home, we are between three to five people but our social bubble is decent. ",
+            "At home, we are between three to five people but we keep to ourselves. ",
+            "At home, we are between three to five people but we see nobody else. "
+          ],
+          [
+            "We are only two people at home but our social bubble is humongous. ",
+            "We are only two people at home but our social bubble is big. ",
+            "We are only two people at home and our social bubble is decent. ",
+            "We are only two people at home and we keep to ourselves. ",
+            "We are only two people at home and we see nobody else. "
+          ],
+          [
+            "At home, it is only me but my social bubble is humongous. ",
+            "At home, it is only me but my social bubble is big. ",
+            "At home, it is only me and my social bubble is decent. ",
+            "At home, it is only me and I keep myself. ",
+            "At home, it is only me and I see nobody else. "
+          ]
+        ];
+        var idx1 = 0 + size_1 * 0 + size_2 * 1 + size_3 * 2 + size_4 * 3
+        var idx2 = 0 + bubble_1 * 0 + bubble_2 * 1 + bubble_3 * 2 + bubble_4 * 3 + bubble_5 * 4
+        var text = table[idx1][idx2];
+        summary += text;
+      }else{
+      if(size_1) summary += "At home, we are more than five people. ";
+      if(size_2) summary += "At home, we are between three to five people. ";
+      if(size_3) summary += "We are two people at home. ";
+      if(size_4) summary += "At home, it is only me. ";
+      if(bubble_1) summary += "Our social bubble is humongous. ";
+      if(bubble_2) summary += "Our social bubble is big. ";
+      if(bubble_3) summary += "Our social bubble is decent. ";
+      if(bubble_4) summary += "We keep to ourselves. ";
+      if(bubble_5) summary += "We see nobody else. ";
+      }
+      if((outside_1 || outside_2) && (classes_1 || classes_2)){
+        var table = [
+          [
+            "We have people that work outside the home and we have people at school or daycare. ",
+            "We have people that work outside the home but nobody is at school or daycare. "
+          ],
+          [
+            "Nobody works outside the home but we have people at school or daycare. ",
+            "Nobody works outside the home nor is at school or daycare. "
+          ]
+        ];
+        var idx1 = 0 + outside_1 * 0 + outside_2 * 1
+        var idx2 = 0 + classes_1 * 0 + classes_2 * 1
+        var text = table[idx1][idx2];
+        summary += text;
+      }else{
+      if(outside_1) summary += "We have people that work outside the home. ";
+      if(outside_2) summary += "Nobody works outside the home. ";
+      if(classes_1) summary += "We have people at school or daycare. ";
+      if(classes_2) summary += "Nobody is at school or daycare. ";
+      }
+      if((iwear_1 || iwear_2 || iwear_3 || iwear_4) && (uwear_1 || uwear_2 || uwear_3 || uwear_4)){
+        var table = [
+          [
+            "When meeting people, I always wear a facemask and I expect others to do the same. ",
+            "When meeting people, I always wear a facemask but I expect others to wear a facemask depending on the people present. ",
+            "When meeting people, I always wear a facemask but I expect others to wear a facemask depending on the place we are meeting. ",
+            "When meeting people, I always wear a facemask but I never expect others to wear a facemask. "
+          ],
+          [
+            "When meeting people, I wear a facemask depending on the people present but I expect others to always wear a facemask. ",
+            "When meeting people, I wear a facemask depending on the people present and I expect others to do the same. ",
+            "When meeting people, I wear a facemask depending on the people present and I expect others to do the same. ",
+            "When meeting people, I wear a facemask depending on the people present but I never expect others to wear a facemask. "
+          ],
+          [
+            "When meeting people, I wear a facemask depending on the place we are meeting but I expect others to always wear a facemask. ",
+            "When meeting people, I wear a facemask depending on the place we are meeting and I expect others to do the same. ",
+            "When meeting people, I wear a facemask depending on the place we are meeting and I expect others to do the same. ",
+            "When meeting people, I wear a facemask depending on the place we are meeting but I never expect others to wear a facemask. "
+          ],
+          [
+            "When meeting people, I never wear a facemask but I expect others to always wear a facemask. ",
+            "When meeting people, I never wear a facemask but I expect others to wear a facemask depending on the people present. ",
+            "When meeting people, I never wear a facemask but I expect others to wear a facemask depending on the place we are meeting. ",
+            "When meeting people, I never wear a facemask and I expect others to do the same. "
+          ]
+        ];
+        var idx1 = 0 + iwear_1 * 0 + iwear_2 * 1 + iwear_3 * 2 + iwear_4 * 3
+        var idx2 = 0 + uwear_1 * 0 + uwear_2 * 1 + uwear_3 * 2 + uwear_4 * 3
+        var text = table[idx1][idx2];
+        summary += text;
+      }else{
+      if(iwear_1) summary += "If I meet people, I always wear a face mask. ";
+      if(iwear_2) summary += "Depending who I meet, I wear a face mask. ";
+      if(iwear_3) summary += "Depending where we are meeting, I wear a face mask. ";
+      if(iwear_4) summary += "I never wear a face mask when I socialize. ";
+      if(uwear_1) summary += "If I meet people, I always expect them to wear a face mask. ";
+      if(uwear_2) summary += "Depending who I meet, I expect them to wear a face mask. ";
+      if(uwear_3) summary += "Depending where we are meeting, I expect them to wear a face mask. ";
+      if(uwear_4) summary += "I never expect others to wear a face mask when I socialize. ";
+      }
+      if((transit_1 || transit_2 || transit_3 || transit_4) && (flight_1 || flight_2)){
+        var table = [
+          [
+            "There is somebody at home that takes mass transit daily and somebody has been on an airplane in the last two weeks. ",
+            "There is somebody at home that takes mass transit daily but nobody has been on an airplane recently. "
+          ],
+          [
+            "There is somebody at home that takes mass transit once a week but somebody has been on an airplane in the last two weeks. ",
+            "There is somebody at home that takes mass transit once a week and nobody has been on an airplane recently. "
+          ],
+          [
+            "There is somebody at home that takes mass transit once a month but somebody has been on an airplane in the last two weeks. ",
+            "There is somebody at home that takes mass transit once a month and nobody has been on an airplane recently. "
+          ],
+          [
+            "We haven't used mass transit since the start of the pandemic but somebody has been on an airplane in the last two weeks. ",
+            "Nobody uses mass transit nor has been on an airplane recently. "
+          ]
+        ];
+        var idx1 = 0 + transit_1 * 0 + transit_2 * 1 + transit_3 * 2 + transit_4 * 3
+        var idx2 = 0 + flight_1 * 0 + flight_2 * 1
+        var text = table[idx1][idx2];
+        summary += text;
+      }else{
+      if(transit_1) summary += "There is somebody at home that takes mass transit daily. ";
+      if(transit_2) summary += "There is somebody at home that takes mass transit once a week. ";
+      if(transit_3) summary += "There is somebody at home that takes mass transit once a month. ";
+      if(transit_4) summary += "We haven't used mass transit since the start of the pandemic. ";
+      if(flight_1) summary += "Somebody has been on an airplane in the last two weeks. ";
+      if(flight_2) summary += "Nobody has been on an airplane recently. ";
+      }
+      }
+      document.forms[0].summary.innerHTML=summary;
+      return 1;
+      }
+    </script>
+
+    <hr><address><p><a href="http://textualization.com">Brought to you by Textualization Software Ltd.</a><br/>
+<a href="https://creativecommons.org/licenses/by-sa/2.0/ca/">This content licensed under the Creative Commons Attribution Share-Alike License (CC-BY-SA).</a><br/>
+Customize your own form at: <a href="http://textualization.com/riscovid">http://textualization.com/riscovid</a><br/>
+Made with care in Vancouver, Canada.</p>
+</address>
+  </body>
+</html>

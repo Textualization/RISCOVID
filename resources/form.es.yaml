@@ -1,0 +1,115 @@
+- title: Formulario de Reporte de Riesgos de COVID-19
+- text:
+    - Toda la información en este cuestionario es opcional, divulgue lo que le parezca importante para que la gente con la que se está por ver se sienta a gusto.
+    - Ningún tipo de información es capturada ni enviada en esta página, es un formulario que funciona sin conexión a internet. Cuando termine, puede obtener un resumen de sus respuestas para enviar (utilizando un programa JavaScript presente en la página). También puede imprimir a PDF el formulario completo.
+- summary: Resumen
+- summarize: Generar Resumen
+- hoax:
+    caption: '¿Cree Ud. que el virus SARS-CoV-2 (el "coronavirus" or "COVID") es un fraude (o sea, que no existe tal virus)?'
+    options:
+      - text: Si.
+        gloss: Creo que no existe el virus.
+      - text: No.
+        gloss: ""
+    postscript: (Si respondió que sí, no le hace falta llenar el resto del formulatio, gracias por hacernoslo saber.)
+- care:
+    caption: ¿Cuanto le preocupa contagiarse con el virus SARS-CoV-2?
+    options:
+      - text: Mucho.
+        gloss: Me preocupa bastante el virus SARS-CoV-2.
+      - text: Bastante.
+        gloss: Me preocupa el virus SARS-CoV-2.
+      - text: Un poco.
+        gloss: El virus SARS-CoV-2 es un tema importante.
+      - text: No mucho.
+        gloss: El virus SARS-CoV-2 no es un tema importante para mi.
+      - text: No me importa.
+        gloss: No me importa el virus SARS-CoV-2.
+- carefor:
+    caption: ¿Hay gente en su casa que le preocupa que se contagien?
+    options:
+      - text: Si.
+        gloss: Hay alguien en casa que me importa que no se contagie.
+      - text: No.
+        gloss: ""
+    extra:
+      text: Si respondió que sí, ¿quién? (Puede elegir compartir su preocupación por algún ser querido y que la gente entienda su necesidad de usar cubrebocas, etc.) Me preocupa mi
+      gloss: Me cuido de contagiarme por la salud de mi
+- size:
+    caption: ¿Cuánta gente hay en su casa (incluyéndose a Ud.)?
+    options:
+      - text: Más de 5.
+        gloss: En casa, somos más de cinco personas.
+      - text: 3-5
+        gloss: En casa, somos entre tres a cinco personas.
+      - text: 2.
+        gloss: Somos dos en cas.
+      - text: 1.
+        gloss: En casa, estoy sólo yo.
+- bubble:
+    caption: ¿Cuánta gente estima hay en la "burbuja social" de su casa (gente con la que se ven cualquier persona de la casa, al menos una vez por mes)?
+    options:
+      - text: Más de 50.
+        gloss: Nuestra burbuja social es gigantesca.
+      - text: 12-50.
+        gloss: Nuestra burbuja social es bien grande. 
+      - text: 6-12.
+        gloss: Nuestra burbuja social es de tamaño decente.
+      - text: 1-5.
+        gloss: No vemos mucha gente.
+      - text: Just us.
+        gloss: No vemos a nadie.
+- outside:
+    caption: ¿Alguien (incluyéndo a Ud.) que no trabaje desde su casa?
+    options:
+      - text: Si.
+        gloss: Tenemos gente que no trabaja desde la casa.
+      - text: No.
+        gloss: Nadie trabaja saliendo de la casa.
+- classes:
+    caption: ¿Tienen personas (incluyéndolo a Ud.) que va a clases presenciales (o están en kindergarden o guardería)?
+    options:
+      - text: Si.
+        gloss: Tenemos gente en la escuela o en el kindergarden o guardería.
+      - text: No.
+        gloss: Nadie en la casa va a la escuela presencial o al kindergarden o guardería.
+- iwear:
+    caption: ¿Si se junta socialmente con otras personas, usa el cubrebocas?
+    options:
+      - text: Siempre.
+        gloss: Cuando me veo con gente, siempre uso el cubrebocas.
+      - text: Depende de con quién me veo.
+        gloss: Dependiendo de con quién me veo, uso el cubrebocas.
+      - text: Depende de dónde nos vemos.
+        gloss: Dependiendo de dónde no estamos juntando, uso el cubrebocas.
+      - text: Nunca.
+        gloss: Nunca uso cubrebocas cuando me junto socialmente.
+- uwear:
+    caption: ¿Si se junta socialmente con otras personas, espera que usen cubrebocas?
+    options:
+      - text: Siempre.
+        gloss: Cuando me veo con gente, espero que usen siempre el cubrebocas.
+      - text: Depende de con quién me veo.
+        gloss: Dependiendo de con quién me veo, espero que usen cubrebocas.
+      - text: Depende de dónde nos vemos.
+        gloss: Dependiendo de dónde no estamos juntando, espero que usen el cubrebocas.
+      - text: Nunca.
+        gloss: Nunca espero que usen cubrebocas cuando nos juntamos socialmente.
+- transit:
+    caption: ¿Qué tan frecuentemente alguien en su casa (incluyendo a Ud.) usan medios de transporte públicos (elija la opción según quien viaja más frecuentemente)?
+    options:
+      - text: Diariamente.
+        gloss: Hay alguien en casa que usa transporte público diariamente.
+      - text: Una vez por semana.
+        gloss: Hay alguien en casa que usa transporte público una vez por semana.
+      - text: Una vez al mes.
+        gloss: Hay alguien en casa que usa transporte público una vez por mes.
+      - text: Nunca desde que empezó la pandemia.
+        gloss: No hemos usado transporte público desde que empezó la pandemia.
+- flight:
+    caption: ¿Hay alguien en su casa (incluyendo a Ud.) que haya estado en vuelo aéreo en las últimas dos semanas?
+    options:
+      - text: Si.
+        gloss: Alguien ha estado en una vuelo en las últimas dos semanas.
+      - text: No.
+        gloss: Nadie ha tomado un vuelo recientemente.

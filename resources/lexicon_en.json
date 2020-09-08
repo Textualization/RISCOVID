@@ -1,0 +1,63 @@
+{
+    "conj_just" : { "string" : "as", "class" : "conjunction" },
+    "conj_conc" : { "string" : "but", "class" : "conjunction" },
+    "conj_elab" : { "string" : "and", "class" : "conjunction" },
+
+    "wear_setup"          : { "string" : "when meeting people," },
+    "wear_self"           : { "string" : "I" },
+    "wear_others_end"     : { "string" : "and I expect others to do the same" },
+    "wear_always"         : {"string" : "always wear a facemask"},
+    "wear_never"          : {"string" : "never wear a facemask"},
+    "wear_depends"        : {"string" : "wear a facemask depending"},
+    "wear_depends_people" : {"string" : "on the people present"},
+    "wear_depends_place"  : {"string" : "on the place we are meeting"},
+    "wear_others"         : { "string" : "I expect others to" },
+    "wear_others_never"   : { "string" : "I never expect others to wear a facemask" },
+
+    "who_none"      : { "string" : "nobody" },
+    "not_list_sep"  : { "string" : "nor" },
+
+    "care_high"   : { "string" : "I care a lot about SARS-CoV-2"},
+    "care_normal" : { "string" : "I care about SARS-CoV-2"},
+    "care_low"    : { "string" : "SARS-CoV-2 is important to me"},
+    "care_verylow": { "string" : "SARS-CoV-2 is not important to me"},
+    "care_none"   : { "string" : "I don't care about SARS-CoV-2"},
+
+    "carefor"       : { "string" : "there is a person in my household I care for them not to get infected" },
+    "carefor_extra" : { "string" : "I care not to get infected to keep the health of my" },
+    
+    "size_big"    : { "string" : "at home, we are more than five people" },
+    "size_normal" : { "string" : "at home, we are between three to five people" },
+    "size_two"    : { "string" : "we are only two people at home" },
+    "size_one"    : { "string" : "at home, it is only me" },
+
+    "bubble_huge"   : { "string" : "our social bubble is humongous" },
+    "bubble_big"    : { "string" : "our social bubble is big" },
+    "bubble_normal" : { "string" : "our social bubble is decent" },
+    "bubble_small"  : { "string" : "we keep to ourselves" },
+    "bubble_none"   : { "string" : "we see nobody else" },
+
+    "bubble_huge_1"   : { "string" : "my social bubble is humongous" },
+    "bubble_big_1"    : { "string" : "my social bubble is big" },
+    "bubble_normal_1" : { "string" : "my social bubble is decent" },
+    "bubble_small_1"  : { "string" : "I keep myself" },
+    "bubble_none_1"   : { "string" : "I see nobody else" },
+
+    "outside_yes"   : { "string" : "we have people that work outside the home" },
+    "outside_no"    : { "string" : "nobody works outside the home" },
+    "outside_neg_headless" : { "string" : "works outside the home" },
+
+    "classes_yes" : { "string" : "we have people at school or daycare" },
+    "classes_no"  : { "string" : "nobody is at school or daycare" },
+    "classes_neg_headless" : { "string" : "is at school or daycare" },
+
+    "transit_daily"  : { "string" : "there is somebody at home that takes mass transit daily" },
+    "transit_weekly" : { "string" : "there is somebody at home that takes mass transit once a week" },
+    "transit_montly" : { "string" : "there is somebody at home that takes mass transit once a month" },
+    "transit_never"  : { "string" : "we haven't used mass transit since the start of the pandemic" },
+    "transit_neg_headless" : { "string" : "uses mass transit" },
+    
+    "flight_yes" : { "string" : "somebody has been on an airplane in the last two weeks" },
+    "flight_no"  : { "string" : "nobody has been on an airplane recently" },
+    "flight_neg_headless" : { "string" : "has been on an airplane recently" }
+}

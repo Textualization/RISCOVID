@@ -1,0 +1,27 @@
+title: "RISCOVID: Formularios de Auto-reporte y Ponderación de Riesgos de COVID-19"
+main:
+  - ¿Le gustaría juntarse con amistades y parientes durante la pandemia? ¿No sabe si sus niveles de riesgo serán compatibles? Los niveles de riesgos son muy personales y son dificiles de ponderar y compartir. Hemos preparado unos formularios de auto-ponderación que son bien cortos y permiten el reporte sin ningún tipo de información transferida ni almacenada en nuestros servidors.
+  - Con el formulario completo, los resultados son resumidos en un párrafo de texto que puede ser compartido por correo electrónico, mensajes de texto o redes sociales.
+  - ¡Esperamos que la toma de decisiones bien informadas nos ayude a mantenernos saludables!
+available_title: Formularios Disponibles
+available: Los formualrios están disponibles en
+en: Inglés
+es: Español
+translations: Traducciones en otros idiomas serán apreciadas en
+github: nuestro proyecto en GitHub.
+customized_title: Formulario A Medida
+customized: Hemos preparado una herramienta para hacer cambios a medida a los formularios:
+custom_tool: Herramienta de Ajustes a Medida de Formularios RISCOVID
+tool_main:
+  - Edite las opciones con sus respectivos textos más abajo.
+  - Cada pregunta tiene un nombre único, y para cada respuesta las opciones tienen que tener una definición para el resumen.
+  - Puede agregar más preguntas con opciones, copiando la estructura de las preguntas existentes. También puede borrar preguntas o modificar sus opciones.
+submit: Enviar
+error: Error
+brought: Por Textualization Software Ltd.
+vancouver: Hecho con afecto en Vancouver, Canada.
+getyours: Realice cambios a medida y construya su propio formulario en 
+licensed: El contenido de esta página está disponible bajo licencia Creative Commons Atribución/Reconocimiento (CC-BY-SA).
+may_contain: Esta página fue generada usando información proporcionada por un usuario de la Herramienta de Ajustes a Medida de Formularios RISCOVID, Textualization Software Ltd. no es responsable de su contenido final.
+
+

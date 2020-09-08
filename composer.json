@@ -1,0 +1,26 @@
+{
+    "name": "textualization/riscovid",
+    "description": "COVID-19 Risk Self-Assessment and Disclousure forms",
+    "type": "project",
+    "keywords": [],
+    "license": "AGPLv3",
+    "authors": [
+        {
+            "name": "Textualization Software Ltd.",
+            "email": "webcontat@textualization.ca",
+            "homepage": "http://textualization.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+	"ext-intl": "*",
+        "nlgen/nlgen" : ">0.11",
+        "zonuexe/http-accept-language": "~0.4.1",
+        "symfony/yaml": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Textualization\\RISCOVID\\": "src/"
+        }
+    }
+}

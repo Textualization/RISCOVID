@@ -1,0 +1,30 @@
+title: "RISCOVID: COVID-19 Risk Self-Assessment and Disclosure"
+main:
+  - Do you want to socialize during the ongoing pandemic? Are you unsure whether your friends and extended family have compatible risk levels? Risk levels are very personal and difficult to assess and disclose. We have prepared a very short and private self-disclosure form that work without recording any information in our servers.
+  - Once the form is is completed, its results are summarized into a paragraph of text that can be shared back through email, messaging or social media.
+  - Informed decisions can help keep us all safe!
+available_title: Available Forms
+available: The forms are currently available in
+en: English
+es: Spanish
+translations: Translations to other languages are welcomed in
+github: our GitHub project.
+customized_title: Customized Form
+customized: We have made a tool to make a customized version of the form:
+custom_tool: RISCOVID Customized Form Tool
+tool_main:
+  - Edit the options and glosses below.
+  - Each question has to have a unique name, for each answer the options need a gloss for the summary.
+  - You can add more questions with options mimicking the structure of the previous entries. You can also delete questions or modify their options.
+  - Extra or modified questions do not profit from the additional logic that produces succinct summaries.
+error: Error
+submit: Submit
+brought: Brought to you by Textualization Software Ltd.
+vancouver: Made with care in Vancouver, Canada.  
+E01: Missing entry
+E02: Entry already defined (forgot a "-"?)
+getyours: Customize your own form at
+licensed: This content licensed under the Creative Commons Attribution Share-Alike License (CC-BY-SA).
+may_contain: This page was generated using information provided by a visitor, Textualization Software Ltd. is not responsible for its final content.
+
+

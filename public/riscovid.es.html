@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Formulario de Reporte de Riesgos de COVID-19</title>
+<style>
+body {
+  background: #eee;
+  font-family: 'Open Sans', sans-serif, Arial, Helvetica;
+  font-size: 2em;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+input[type="radio" i]{
+  font-size: 2em;
+  width: 0.5em;
+  height: 0.5em;
+  vertical-align: middle;
+}
+input {
+  font-size: 2em;
+  vertical-align: middle;
+}
+label { 
+  padding-left: 0.25em; 
+}
+
+</style>
+  </head>
+  <body>
+    <h1>Formulario de Reporte de Riesgos de COVID-19</h1>
+<p>Toda la información en este cuestionario es opcional, divulgue lo que le parezca importante para que la gente con la que se está por ver se sienta a gusto.</p>
+<p>Ningún tipo de información es capturada ni enviada en esta página, es un formulario que funciona sin conexión a internet. Cuando termine, puede obtener un resumen de sus respuestas para enviar (utilizando un programa JavaScript presente en la página). También puede imprimir a PDF el formulario completo.</p>
+    <form>
+
+      <ol>
+	<li><p>¿Cree Ud. que el virus SARS-CoV-2 (el "coronavirus" or "COVID") es un fraude (o sea, que no existe tal virus)?<br/>
+<input type="radio" id="hoax_1" name="hoax" /><label for="hoax_1">Si.</label><br/>
+<input type="radio" id="hoax_2" name="hoax" /><label for="hoax_2">No.</label><br/>
+</p><p>(Si respondió que sí, no le hace falta llenar el resto del formulatio, gracias por hacernoslo saber.)</p>
+	</p></li>
+
+	<li><p>¿Cuanto le preocupa contagiarse con el virus SARS-CoV-2?<br/>
+<input type="radio" id="care_1" name="care" /><label for="care_1">Mucho.</label><br/>
+<input type="radio" id="care_2" name="care" /><label for="care_2">Bastante.</label><br/>
+<input type="radio" id="care_3" name="care" /><label for="care_3">Un poco.</label><br/>
+<input type="radio" id="care_4" name="care" /><label for="care_4">No mucho.</label><br/>
+<input type="radio" id="care_5" name="care" /><label for="care_5">No me importa.</label><br/>
+	</p></li>
+
+	<li><p>¿Hay gente en su casa que le preocupa que se contagien?<br/>
+<input type="radio" id="carefor_1" name="carefor" /><label for="carefor_1">Si.</label><br/>
+<input type="radio" id="carefor_2" name="carefor" /><label for="carefor_2">No.</label><br/>
+</p><p>Si respondió que sí, ¿quién? (Puede elegir compartir su preocupación por algún ser querido y que la gente entienda su necesidad de usar cubrebocas, etc.) Me preocupa mi: <input type="text" id="carefor_extra" name="carefor_extra" /></p>
+	</p></li>
+
+	<li><p>¿Cuánta gente hay en su casa (incluyéndose a Ud.)?<br/>
+<input type="radio" id="size_1" name="size" /><label for="size_1">Más de 5.</label><br/>
+<input type="radio" id="size_2" name="size" /><label for="size_2">3-5</label><br/>
+<input type="radio" id="size_3" name="size" /><label for="size_3">2</label><br/>
+<input type="radio" id="size_4" name="size" /><label for="size_4">1</label><br/>
+	</p></li>
+
+	<li><p>¿Cuánta gente estima hay en la "burbuja social" de su casa (gente con la que se ven cualquier persona de la casa, al menos una vez por mes)?<br/>
+<input type="radio" id="bubble_1" name="bubble" /><label for="bubble_1">Más de 50.</label><br/>
+<input type="radio" id="bubble_2" name="bubble" /><label for="bubble_2">12-50.</label><br/>
+<input type="radio" id="bubble_3" name="bubble" /><label for="bubble_3">6-12.</label><br/>
+<input type="radio" id="bubble_4" name="bubble" /><label for="bubble_4">1-5.</label><br/>
+<input type="radio" id="bubble_5" name="bubble" /><label for="bubble_5">Just us.</label><br/>
+	</p></li>
+
+	<li><p>¿Alguien (incluyéndo a Ud.) que no trabaje desde su casa?<br/>
+<input type="radio" id="outside_1" name="outside" /><label for="outside_1">Si.</label><br/>
+<input type="radio" id="outside_2" name="outside" /><label for="outside_2">No.</label><br/>
+	</p></li>
+
+	<li><p>¿Tienen personas (incluyéndolo a Ud.) que va a clases presenciales (o están en kindergarden o guardería)?<br/>
+<input type="radio" id="classes_1" name="classes" /><label for="classes_1">Si.</label><br/>
+<input type="radio" id="classes_2" name="classes" /><label for="classes_2">No.</label><br/>
+	</p></li>
+
+	<li><p>¿Si se junta socialmente con otras personas, usa el cubrebocas?<br/>
+<input type="radio" id="iwear_1" name="iwear" /><label for="iwear_1">Siempre.</label><br/>
+<input type="radio" id="iwear_2" name="iwear" /><label for="iwear_2">Depende de con quién me veo.</label><br/>
+<input type="radio" id="iwear_3" name="iwear" /><label for="iwear_3">Depende de dónde nos vemos.</label><br/>
+<input type="radio" id="iwear_4" name="iwear" /><label for="iwear_4">Nunca.</label><br/>
+	</p></li>
+
+	<li><p>¿Si se junta socialmente con otras personas, espera que usen cubrebocas?<br/>
+<input type="radio" id="uwear_1" name="uwear" /><label for="uwear_1">Siempre.</label><br/>
+<input type="radio" id="uwear_2" name="uwear" /><label for="uwear_2">Depende de con quién me veo.</label><br/>
+<input type="radio" id="uwear_3" name="uwear" /><label for="uwear_3">Depende de dónde nos vemos.</label><br/>
+<input type="radio" id="uwear_4" name="uwear" /><label for="uwear_4">Nunca.</label><br/>
+	</p></li>
+
+	<li><p>¿Qué tan frecuentemente alguien en su casa (incluyendo a Ud.) usan medios de transporte públicos (elija la opción según quien viaja más frecuentemente)?<br/>
+<input type="radio" id="transit_1" name="transit" /><label for="transit_1">Diariamente.</label><br/>
+<input type="radio" id="transit_2" name="transit" /><label for="transit_2">Una vez por semana.</label><br/>
+<input type="radio" id="transit_3" name="transit" /><label for="transit_3">Una vez al mes.</label><br/>
+<input type="radio" id="transit_4" name="transit" /><label for="transit_4">Nunca desde que empezó la pandemia.</label><br/>
+	</p></li>
+
+	<li><p>¿Hay alguien en su casa (incluyendo a Ud.) que haya estado en vuelo aéreo en las últimas dos semanas?<br/>
+<input type="radio" id="flight_1" name="flight" /><label for="flight_1">Si.</label><br/>
+<input type="radio" id="flight_2" name="flight" /><label for="flight_2">No.</label><br/>
+	</p></li>
+
+      </ol>      
+      <p>
+	<input type="button" id="action" name="action" onclick="summarize()" value="Generar Resumen" />
+      </p>
+      <p>Resumen</p>
+
+      <textarea id="summary" name="summary" rows="20" cols="60">
+      </textarea>
+    </form>
+    <script>
+      function summarize(){
+      var f=document.forms[0];
+      var summary="";
+      if(f.hoax_1.checked){ summary="Creo que no existe el virus." }
+      else
+      {
+      var hoax_1 = f.hoax_1.checked;
+      var hoax_2 = f.hoax_2.checked;
+      var care_1 = f.care_1.checked;
+      var care_2 = f.care_2.checked;
+      var care_3 = f.care_3.checked;
+      var care_4 = f.care_4.checked;
+      var care_5 = f.care_5.checked;
+      var carefor_1 = f.carefor_1.checked;
+      var carefor_2 = f.carefor_2.checked;
+      var carefor_extra = f.carefor_extra.value;
+      var size_1 = f.size_1.checked;
+      var size_2 = f.size_2.checked;
+      var size_3 = f.size_3.checked;
+      var size_4 = f.size_4.checked;
+      var bubble_1 = f.bubble_1.checked;
+      var bubble_2 = f.bubble_2.checked;
+      var bubble_3 = f.bubble_3.checked;
+      var bubble_4 = f.bubble_4.checked;
+      var bubble_5 = f.bubble_5.checked;
+      var outside_1 = f.outside_1.checked;
+      var outside_2 = f.outside_2.checked;
+      var classes_1 = f.classes_1.checked;
+      var classes_2 = f.classes_2.checked;
+      var iwear_1 = f.iwear_1.checked;
+      var iwear_2 = f.iwear_2.checked;
+      var iwear_3 = f.iwear_3.checked;
+      var iwear_4 = f.iwear_4.checked;
+      var uwear_1 = f.uwear_1.checked;
+      var uwear_2 = f.uwear_2.checked;
+      var uwear_3 = f.uwear_3.checked;
+      var uwear_4 = f.uwear_4.checked;
+      var transit_1 = f.transit_1.checked;
+      var transit_2 = f.transit_2.checked;
+      var transit_3 = f.transit_3.checked;
+      var transit_4 = f.transit_4.checked;
+      var flight_1 = f.flight_1.checked;
+      var flight_2 = f.flight_2.checked;
+      if(hoax_1) summary += "Creo que no existe el virus. ";
+      if(care_1) summary += "Me preocupa bastante el virus SARS-CoV-2. ";
+      if(care_2) summary += "Me preocupa el virus SARS-CoV-2. ";
+      if(care_3) summary += "El virus SARS-CoV-2 es un tema importante. ";
+      if(care_4) summary += "El virus SARS-CoV-2 no es un tema importante para mi. ";
+      if(care_5) summary += "No me importa el virus SARS-CoV-2. ";
+      if(carefor_1) summary += "Hay alguien en casa que me importa que no se contagie. ";
+      if(carefor_extra != "") summary += "Me cuido de contagiarme por la salud de mi: " + carefor_extra + ". ";
+      if(size_1) summary += "En casa, somos más de cinco personas. ";
+      if(size_2) summary += "En casa, somos entre tres a cinco personas. ";
+      if(size_3) summary += "Somos dos en cas. ";
+      if(size_4) summary += "En casa, estoy sólo yo. ";
+      if(bubble_1) summary += "Nuestra burbuja social es gigantesca. ";
+      if(bubble_2) summary += "Nuestra burbuja social es bien grande. ";
+      if(bubble_3) summary += "Nuestra burbuja social es de tamaño decente. ";
+      if(bubble_4) summary += "No vemos mucha gente. ";
+      if(bubble_5) summary += "No vemos a nadie. ";
+      if(outside_1) summary += "Tenemos gente que no trabaja desde la casa. ";
+      if(outside_2) summary += "Nadie trabaja saliendo de la casa. ";
+      if(classes_1) summary += "Tenemos gente en la escuela o en el kindergarden o guardería. ";
+      if(classes_2) summary += "Nadie en la casa va a la escuela presencial o al kindergarden o guardería. ";
+      if(iwear_1) summary += "Cuando me veo con gente, siempre uso el cubrebocas. ";
+      if(iwear_2) summary += "Dependiendo de con quién me veo, uso el cubrebocas. ";
+      if(iwear_3) summary += "Dependiendo de dónde no estamos juntando, uso el cubrebocas. ";
+      if(iwear_4) summary += "Nunca uso cubrebocas cuando me junto socialmente. ";
+      if(uwear_1) summary += "Cuando me veo con gente, espero que usen siempre el cubrebocas. ";
+      if(uwear_2) summary += "Dependiendo de con quién me veo, espero que usen cubrebocas. ";
+      if(uwear_3) summary += "Dependiendo de dónde no estamos juntando, espero que usen el cubrebocas. ";
+      if(uwear_4) summary += "Nunca espero que usen cubrebocas cuando nos juntamos socialmente. ";
+      if(transit_1) summary += "Hay alguien en casa que usa transporte público diariamente. ";
+      if(transit_2) summary += "Hay alguien en casa que usa transporte público una vez por semana. ";
+      if(transit_3) summary += "Hay alguien en casa que usa transporte público una vez por mes. ";
+      if(transit_4) summary += "No hemos usado transporte público desde que empezó la pandemia. ";
+      if(flight_1) summary += "Alguien ha estado en una vuelo en las últimas dos semanas. ";
+      if(flight_2) summary += "Nadie ha tomado un vuelo recientemente. ";
+      }
+      document.forms[0].summary.innerHTML=summary;
+      return 1;
+      }
+    </script>
+
+    <hr><address><p><a href="http://textualization.com">Por Textualization Software Ltd.</a><br/>
+<a href="https://creativecommons.org/licenses/by-sa/2.0/ca/">El contenido de esta página está disponible bajo licencia Creative Commons Atribución/Reconocimiento (CC-BY-SA).</a><br/>
+Realice cambios a medida y construya su propio formulario en: <a href="http://textualization.com/riscovid">http://textualization.com/riscovid</a><br/>
+Hecho con afecto en Vancouver, Canada.</p>
+</address>
+  </body>
+</html>
