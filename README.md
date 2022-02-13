@@ -41,7 +41,7 @@ This tool is live at [http://textualization.com/riscovid](http://textualization.
 
 ## Local Install
 
-This project uses (composer)[https://getcomposer.org] to manage its
+This project uses [composer](https://getcomposer.org) to manage its
 dependencies. Before running it, install composer and then issue:
 
 ```bash
